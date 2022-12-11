@@ -1,0 +1,7 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Naming/FileName:
+ Exclude:
+   - lib/rubocop-sensei.rb

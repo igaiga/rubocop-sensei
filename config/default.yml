@@ -1,0 +1,6 @@
+# Write it!
+
+Lint/ReplaceElsif:
+  Description: 'elsifはCaseで置換できる'
+  Enabled: pending
+  VersionAdded: '<<next>>'
