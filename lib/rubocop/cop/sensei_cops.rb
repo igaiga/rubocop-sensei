@@ -1,2 +1,2 @@
 # frozen_string_literal: true
-require_relative 'lint/replace_elsif'
+require_relative 'style/replace_elsif'
