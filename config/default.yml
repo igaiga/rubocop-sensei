@@ -1,4 +1,4 @@
-Sensei/Style/ReplaceElsif:
+Style/ReplaceElsif:
   Description: '`elsif` can be replaced with `case`'
   Enabled: true
   VersionAdded: '0.1.0'
