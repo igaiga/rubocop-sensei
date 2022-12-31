@@ -1,2 +1,3 @@
 # frozen_string_literal: true
-require_relative 'style/replace_elsif'
+
+require_relative 'sensei/style/replace_elsif'
