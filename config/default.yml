@@ -1,4 +1,4 @@
-Style/ReplaceElsif:
+Lecture/ReplaceElsif:
   Description: '`elsif` can be replaced with `case`'
   Enabled: true
   VersionAdded: '0.1.0'

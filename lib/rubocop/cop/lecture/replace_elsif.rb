@@ -2,7 +2,7 @@
 
 module RuboCop
   module Cop
-    module Style
+    module Lecture
       # `elsif`は`case`で書き換え可能です。
       # N個の分岐から1つ選ぶ「N者択一」のときはcaseをつかうと読みやすくなります。
       #

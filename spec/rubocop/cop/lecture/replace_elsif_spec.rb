@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe RuboCop::Cop::Style::ReplaceElsif, :config do
+RSpec.describe RuboCop::Cop::Lecture::ReplaceElsif, :config do
   let(:config) { RuboCop::Config.new }
 
   it "Registers an offense when using `elsif`" do
