@@ -65,7 +65,10 @@ module RuboCop
           return unless node.elsif?
 
           add_offense(node) do |corrector|
-            corrector.replace(node.parent.loc.keyword, "case\nwhen")  # if => case when
+            # if => case when
+            replacing_string = "case" + "\n" +
+             " " * node.parent.source_range.column + "when"
+            corrector.replace(node.parent.loc.keyword, replacing_string)
             corrector.replace(node.loc.keyword, "when") # elsif => when
           end
         end
