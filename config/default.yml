@@ -1,4 +1,9 @@
 Lecture/ReplaceElsif:
-  Description: '`elsif` can be replaced with `case`'
+  Description: "`elsif` can be replaced with `case`"
   Enabled: true
-  VersionAdded: '0.1.0'
+  VersionAdded: "0.1.0"
+
+Lecture/UnlessElse:
+  Description: "Do not use `unless` with `else`. Rewrite these with the positive case first."
+  Enabled: true
+  VersionAdded: "0.1.3"
