@@ -37,5 +37,6 @@ Gem::Specification.new do |spec|
   # guide at: https://bundler.io/guides/creating_gem.html
 
   spec.add_runtime_dependency 'rubocop'
+  spec.add_runtime_dependency 'typeprof'
 end
 

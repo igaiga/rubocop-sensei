@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rubocop'
+require 'typeprof'
 
 require_relative 'rubocop/sensei'
 require_relative 'rubocop/sensei/version'
