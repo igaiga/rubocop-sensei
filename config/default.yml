@@ -1,12 +1,12 @@
 Lecture/ExplainSymbolToProc :
   Description: 'Explain receiver.method(&:method)'
   Enabled: true
-  VersionAdded: '0.1.3'
+  VersionAdded: '0.1.4'
 
 Lecture/PreferSymbolToProc:
   Description: 'might be replaced with method(&:method)'
   Enabled: true
-  VersionAdded: '0.1.3'
+  VersionAdded: '0.1.4'
 
 Lecture/PreferMap:
   Description: '`each` can be replaced with `map`'
