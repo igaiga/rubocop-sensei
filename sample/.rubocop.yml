@@ -1,0 +1,8 @@
+AllCops:
+  DisabledByDefault: true
+
+require:
+  - rubocop-sensei
+
+Lecture:
+  Enabled: true
