@@ -6,4 +6,6 @@
 /pkg/
 /spec/reports/
 /tmp/
+/sample/rubo_sensei_sample_app/
+/sample/test_target.rb
 .DS_Store
