@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe RuboCop::Cop::Lecture::ExplainSymbolToProc , :config do
+RSpec.describe RuboCop::Cop::Lecture::ExplainSymbolToProc, :config do
   let(:config) { RuboCop::Config.new }
 
   it "Registers an offense when having potential to replace &:method" do
