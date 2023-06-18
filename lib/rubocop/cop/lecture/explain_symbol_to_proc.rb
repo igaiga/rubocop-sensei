@@ -10,7 +10,7 @@ module RuboCop
       # end
       #
       # @example
-      #   # bad
+      #   # good
       #   ["a","b","c"].map do |x|
       #     x.upcase
       #   end
