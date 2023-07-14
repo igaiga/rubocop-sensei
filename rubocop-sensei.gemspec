@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Rubocop Sensei"
   spec.description = "."
   spec.homepage = "https://github.com/igaiga/rubocop-sensei"
-  spec.required_ruby_version = ">= 2.7.0"
+  spec.required_ruby_version = ">= 3.0.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
