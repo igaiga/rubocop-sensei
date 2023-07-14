@@ -9,7 +9,7 @@ RSpec.describe RuboCop::Cop::Lecture::ReplaceElsif, :config do
       y = 2
       if x == 9
       elsif y == 2
-      ^^^^^^^^^^^^ `elsif`は`case`で書き換え可能です。[...]
+      ^^^^^^^^^^^^ Lecture/ReplaceElsif: `elsif`は`case`で書き換え可能です。[...]
       end
     RUBY
   end
@@ -33,7 +33,7 @@ RSpec.describe RuboCop::Cop::Lecture::ReplaceElsif, :config do
       if x == 9
         puts "foo"
       elsif y == 2
-      ^^^^^^^^^^^^ `elsif`は`case`で書き換え可能です。[...]
+      ^^^^^^^^^^^^ Lecture/ReplaceElsif: `elsif`は`case`で書き換え可能です。[...]
         puts "bar"
       else
         puts "baz"

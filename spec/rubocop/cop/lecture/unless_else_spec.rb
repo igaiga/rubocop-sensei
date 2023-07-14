@@ -7,7 +7,7 @@ RSpec.describe RuboCop::Cop::Lecture::UnlessElse, :config do
     expect_offense(<<~RUBY)
       x = 1
       unless x == 1
-      ^^^^^^^^^^^^^ `unless` `else` は避けた方が良いです。[...]
+      ^^^^^^^^^^^^^ Lecture/UnlessElse: `unless` `else` は避けた方が良いです。[...]
       else
       end
     RUBY

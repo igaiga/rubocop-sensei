@@ -6,7 +6,7 @@ RSpec.describe RuboCop::Cop::Lecture::ExplainSymbolToProc, :config do
   it "Registers an offense when having potential to replace &:method" do
     expect_offense(<<~RUBY)
       ["a","b"].map(&:upcase)
-      ^^^^^^^^^^^^^^^^^^^^^^^ foo.bar(&:baz) は次のコードと同じです。[...]
+      ^^^^^^^^^^^^^^^^^^^^^^^ Lecture/ExplainSymbolToProc: foo.bar(&:baz) は次のコードと同じです。[...]
     RUBY
   end
 

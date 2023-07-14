@@ -6,7 +6,7 @@ RSpec.describe RuboCop::Cop::Lecture::PreferSymbolToProc, :config do
   it "Registers an offense when having potential to replace &:method" do
     expect_offense(<<~RUBY)
       ["a","b","c"].map do |x|
-      ^^^^^^^^^^^^^^^^^^^^^^^^ このブロックはmethod(&:method)で置き換えられるかもしれません。[...]
+      ^^^^^^^^^^^^^^^^^^^^^^^^ Lecture/PreferSymbolToProc: このブロックはmethod(&:method)で置き換えられるかもしれません。[...]
         x.upcase
       end
     RUBY

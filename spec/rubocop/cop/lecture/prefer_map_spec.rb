@@ -7,7 +7,7 @@ RSpec.describe RuboCop::Cop::Lecture::PreferMap, :config do
     expect_offense(<<~RUBY)
       result = []
       [1,2,3].each do |x|
-      ^^^^^^^^^^^^^^^^^^^ この`each`メソッドは`map`メソッドで置き換えられるかもしれません。[...]
+      ^^^^^^^^^^^^^^^^^^^ Lecture/PreferMap: この`each`メソッドは`map`メソッドで置き換えられるかもしれません。[...]
         result << x * 2
       end
     RUBY
