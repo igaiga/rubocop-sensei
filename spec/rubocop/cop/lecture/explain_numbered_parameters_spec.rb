@@ -6,22 +6,22 @@ RSpec.describe RuboCop::Cop::Lecture::ExplainNumberedParameters, :config do
   it "Registers an offense when having a numbered parameter" do
     expect_offense(<<~RUBY)
       ["a","b"].map{ _1.updace }
-                     ^^ foo.bar{ _1.baz } は foo.bar{|x| x.baz } と同じです[...]
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^ Lecture/ExplainNumberedParameters: foo.bar{ _1.baz } は foo.bar{|x| x.baz } と同じです[...]
     RUBY
   end
 
   it "Registers an offense when having a numbered parameter" do
     expect_offense(<<~RUBY)
       ["a","b"].map{ _1 }
-                     ^^ foo.bar{ _1.baz } は foo.bar{|x| x.baz } と同じです[...]
+      ^^^^^^^^^^^^^^^^^^^ Lecture/ExplainNumberedParameters: foo.bar{ _1.baz } は foo.bar{|x| x.baz } と同じです[...]
     RUBY
   end
 
   it "Registers an offense when having a numbered parameter" do
     expect_offense(<<~RUBY)
       [1,2].map do
+      ^^^^^^^^^^^^ Lecture/ExplainNumberedParameters: foo.bar{ _1.baz } は foo.bar{|x| x.baz } と同じです[...]
         _1 * 2
-        ^^ foo.bar{ _1.baz } は foo.bar{|x| x.baz } と同じです[...]
       end
     RUBY
   end
