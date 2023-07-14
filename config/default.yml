@@ -1,3 +1,8 @@
+Lecture/ExplainPatternMatchCaseIn:
+  Description: 'Explain pattern match case in'
+  Enabled: true
+  VersionAdded: '0.1.5'
+
 Lecture/ExplainNumberedParameters:
   Description: 'Explain numbered parameters'
   Enabled: true
