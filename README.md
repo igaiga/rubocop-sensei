@@ -113,12 +113,12 @@ require:
 
 - カテゴリ設定に Lecture を有効にする設定を追加します
 
-```
+```yaml
 Lecture:
   Enabled: true
 ```
 
-## アドバイスを非表示にしていくたいとき
+## アドバイスを非表示にするとき
 
 - RuboSenseiのアドバイス表示時に書かれている名前を指定してEnabled: false設定を追記します
 
