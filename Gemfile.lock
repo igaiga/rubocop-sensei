@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-sensei (0.1.4)
+    rubocop-sensei (0.1.5)
       rubocop
       typeprof
 
