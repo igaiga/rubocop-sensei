@@ -140,4 +140,6 @@ Lecture:
 
 # License
 
-MIT
+- Apache License Version 2.0
+  - https://www.apache.org/licenses/LICENSE-2.0
+- (RuboSensei v0.1.4 まではMITライセンス)
