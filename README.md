@@ -1,13 +1,15 @@
 # RuboSensei
 
 - RuboSensei は書いたRuby/Railsコードに対して、より良い書き方を教えてくれるツールです
-- RuboCop gem の仕組みをつかっています
+- RuboCop Gem の仕組みをつかっています
 - rubocopコマンドで良い書き方のアドバイスが表示されます
-- VSCodeプラグイン [Ruby Light](https://marketplace.visualstudio.com/items?itemName=r7kamura.vscode-ruby-light) をつかうと書いたコードのそばに表示できます
+- RuboCop に標準で入っているLSPをつかうとエディタ上で書いたコードのそばに表示できます
 
 ![demo](demo.gif)
 
-# 使い方
+# つかい方
+
+## インストール
 
 - Gemfile に以下を追加します。
 
@@ -31,13 +33,15 @@ Lecture:
   Enabled: true
 ```
 
+## rubocopコマンドからつかう
+
 - rubocop コマンドを実行します
   - $ bundle exec rubocop
 
 - rubocop コマンドに `--autocorrect` オプションを渡すと、対応している項目は自動修正も行います
   - $ bundle exec rubocop --autocorrect
 
-# 実行結果例
+- 実行結果例
 
 ```
 app/models/book.rb:12:5: C: Lecture/PreferMap: このeachメソッドはmapメソッドで置き換えられるかもしれません。
@@ -46,10 +50,23 @@ app/models/book.rb:12:5: C: Lecture/PreferMap: このeachメソッドはmapメ�
     ^^^^^^^^^^^^^^^^^
 ```
 
-# .rubocop.yml の例
+## VSCode で書いているコード上にアドバイスする
 
-- もしも.rubocop.ymlがないときは、たとえば次のような内容で作成します
-- RuboCopデフォルトの検査のうちStyle, LintカテゴリだけをONにするときの.rubocop.ymlの例
+- VSCode で書いているコード上でリアルタイムにアドバイスを表示できます
+  - RuboCopに標準で入っているLSP機能と、VSCode拡張 vscode-rubocop をつかいます
+- VSCode拡張 vscode-rubocop をVSCodeへインストールして有効にします
+  - https://marketplace.visualstudio.com/items?itemName=rubocop.vscode-rubocop
+- rubocopコマンドが実行可能になっていれば、自動でRuboCopを実行して結果を表示します
+  - 手動でLSPを起動するコマンドを実行する必要はありません
+
+# .rubocop.yml の書き方例
+
+- RuboSenseiのアドバイスはLectureカテゴリとしてまとめられています
+
+## プロジェクトの.rubocop.ymlがないとき
+
+- たとえば次のような内容で作成します
+- RuboCopデフォルトの検査のうちStyle, LintカテゴリだけをONにして、RuboSenseiのアドバイス(Lectureカテゴリ)をONにするときの.rubocop.ymlの例
 
 ```
 AllCops:
@@ -69,7 +86,7 @@ Lecture:
   Enabled: true
 ```
 
-- RuboCopデフォルトの検査をオフにしてRuboSenseiが出力するLectureカテゴリだけをONにするときの.rubocop.ymlの例
+- RuboCopデフォルトの検査をオフにしてRuboSenseiのアドバイス(Lectureカテゴリ)をONにするときの.rubocop.ymlの例
 
 ```yaml
 AllCops:
@@ -83,6 +100,42 @@ Lecture:
 
 Lecture/ReplaceElsif:
   Enabled: true
+```
+
+## プロジェクトの.rubocop.ymlがあるとき
+
+- require設定に rubocop-sensei を追加します
+
+```yaml
+require:
+  - rubocop-sensei
+```
+
+- カテゴリ設定に Lecture を有効にする設定を追加します
+
+```
+Lecture:
+  Enabled: true
+```
+
+## アドバイスを非表示にしていくたいとき
+
+- RuboSenseiのアドバイス表示時に書かれている名前を指定してEnabled: false設定を追記します
+
+```yaml
+Lecture:
+  Enabled: true
+
+Lecture/ReplaceElsif:
+  Enabled: false
+```
+
+- 全アドバイスをオフにするときはLectureカテゴリをEnabled: falseにします
+  - または、Lectureカテゴリの設定を削除します
+
+```yaml
+Lecture:
+  Enabled: false
 ```
 
 # License
