@@ -8,6 +8,11 @@ Lecture/ExplainPatternMatchCaseIn:
   Enabled: true
   VersionAdded: '0.1.5'
 
+Lecture/ExplainPatternMatchIn:
+  Description: 'Explain pattern match in'
+  Enabled: true
+  VersionAdded: '0.1.6'
+
 Lecture/ExplainSymbolToProc :
   Description: 'Explain receiver.method(&:method)'
   Enabled: true
