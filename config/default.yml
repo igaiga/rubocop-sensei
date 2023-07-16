@@ -1,10 +1,10 @@
-Lecture/ExplainPatternMatchCaseIn:
-  Description: 'Explain pattern match case in'
+Lecture/ExplainNumberedParameters:
+  Description: 'Explain numbered parameters'
   Enabled: true
   VersionAdded: '0.1.5'
 
-Lecture/ExplainNumberedParameters:
-  Description: 'Explain numbered parameters'
+Lecture/ExplainPatternMatchCaseIn:
+  Description: 'Explain pattern match case in'
   Enabled: true
   VersionAdded: '0.1.5'
 
@@ -13,15 +13,15 @@ Lecture/ExplainSymbolToProc :
   Enabled: true
   VersionAdded: '0.1.4'
 
+Lecture/PreferMap:
+  Description: '`each` can be replaced with `map`'
+  Enabled: true
+  VersionAdded: '0.1.4'
+
 Lecture/PreferSymbolToProc:
   Description: 'might be replaced with method(&:method)'
   Enabled: true
   VersionAdded: '0.1.4'
-
-Lecture/PreferMap:
-  Description: '`each` can be replaced with `map`'
-  Enabled: true
-  VersionAdded: '0.1.3'
 
 Lecture/ReplaceElsif:
   Description: "`elsif` can be replaced with `case`"
