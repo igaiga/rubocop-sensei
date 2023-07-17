@@ -13,6 +13,11 @@ Lecture/ExplainPatternMatchIn:
   Enabled: true
   VersionAdded: '0.1.6'
 
+Lecture/ExplainPatternMatchRocket:
+  Description: 'Explain pattern match =>'
+  Enabled: true
+  VersionAdded: '0.1.6'
+
 Lecture/ExplainSymbolToProc :
   Description: 'Explain receiver.method(&:method)'
   Enabled: true

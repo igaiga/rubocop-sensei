@@ -3,6 +3,7 @@
 ## 0.1.6 (2023-xx-xx)
 
 - Lecture/ExplainPatternMatchIn
+- Lecture/ExplainPatternMatchRocket
 
 ## 0.1.5 (2023-07-15)
 
