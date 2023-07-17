@@ -6,3 +6,9 @@ AllCops:
 Naming/FileName:
  Exclude:
    - lib/rubocop-sensei.rb
+
+require:
+  - rubocop-sensei
+
+Lecture:
+  Enabled: true
