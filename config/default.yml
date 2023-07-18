@@ -1,37 +1,37 @@
 Lecture/ExplainNumberedParameters:
-  Description: 'ナンバーパラメータの説明'
+  Description: "ナンバーパラメータの説明"
   Enabled: true
-  VersionAdded: '0.1.5'
+  VersionAdded: "0.1.5"
 
 Lecture/ExplainPatternMatchCaseIn:
-  Description: 'パターンマッチ case in の説明'
+  Description: "パターンマッチ case in の説明"
   Enabled: true
-  VersionAdded: '0.1.5'
+  VersionAdded: "0.1.5"
 
 Lecture/ExplainPatternMatchIn:
-  Description: '1行パターンマッチ in の説明'
+  Description: "1行パターンマッチ in の説明"
   Enabled: true
-  VersionAdded: '0.1.6'
+  VersionAdded: "0.1.6"
 
 Lecture/ExplainPatternMatchRocket:
-  Description: '1行パターンマッチ => の説明'
+  Description: "1行パターンマッチ => の説明"
   Enabled: true
-  VersionAdded: '0.1.6'
+  VersionAdded: "0.1.6"
 
 Lecture/ExplainSymbolToProc :
-  Description: 'receiver.method(&:method) の説明'
+  Description: "receiver.method(&:method) の説明"
   Enabled: true
-  VersionAdded: '0.1.4'
+  VersionAdded: "0.1.4"
 
 Lecture/PreferMap:
-  Description: 'この each メソッドは map メソッドで書き換えられるかもしれません'
+  Description: "この each メソッドは map メソッドで書き換えられるかもしれません"
   Enabled: true
-  VersionAdded: '0.1.4'
+  VersionAdded: "0.1.4"
 
 Lecture/PreferSymbolToProc:
-  Description: 'method(&:method) で書き換えられるかもしれません'
+  Description: "method(&:method) で書き換えられるかもしれません"
   Enabled: true
-  VersionAdded: '0.1.4'
+  VersionAdded: "0.1.4"
 
 Lecture/ReplaceElsif:
   Description: "elsif は case で書き換えよう"
