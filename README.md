@@ -7,6 +7,10 @@
 
 ![demo](demo.gif)
 
+# 実装されているアドバイス
+
+- [config/default.yml](config/default.yml)
+
 # つかい方
 
 ## インストール

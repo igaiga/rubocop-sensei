@@ -1,44 +1,44 @@
 Lecture/ExplainNumberedParameters:
-  Description: 'Explain numbered parameters'
+  Description: 'ナンバーパラメータの説明'
   Enabled: true
   VersionAdded: '0.1.5'
 
 Lecture/ExplainPatternMatchCaseIn:
-  Description: 'Explain pattern match case in'
+  Description: 'パターンマッチ case in の説明'
   Enabled: true
   VersionAdded: '0.1.5'
 
 Lecture/ExplainPatternMatchIn:
-  Description: 'Explain pattern match in'
+  Description: '1行パターンマッチ in の説明'
   Enabled: true
   VersionAdded: '0.1.6'
 
 Lecture/ExplainPatternMatchRocket:
-  Description: 'Explain pattern match =>'
+  Description: '1行パターンマッチ => の説明'
   Enabled: true
   VersionAdded: '0.1.6'
 
 Lecture/ExplainSymbolToProc :
-  Description: 'Explain receiver.method(&:method)'
+  Description: 'receiver.method(&:method) の説明'
   Enabled: true
   VersionAdded: '0.1.4'
 
 Lecture/PreferMap:
-  Description: '`each` can be replaced with `map`'
+  Description: 'この each メソッドは map メソッドで書き換えられるかもしれません'
   Enabled: true
   VersionAdded: '0.1.4'
 
 Lecture/PreferSymbolToProc:
-  Description: 'might be replaced with method(&:method)'
+  Description: 'method(&:method) で書き換えられるかもしれません'
   Enabled: true
   VersionAdded: '0.1.4'
 
 Lecture/ReplaceElsif:
-  Description: "`elsif` can be replaced with `case`"
+  Description: "elsif は case で書き換えよう"
   Enabled: true
   VersionAdded: "0.1.0"
 
 Lecture/UnlessElse:
-  Description: "Do not use `unless` with `else`. Rewrite these with the positive case first."
+  Description: "unless else はやめてif に書き換えよう"
   Enabled: true
   VersionAdded: "0.1.3"
