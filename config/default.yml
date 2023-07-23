@@ -1,3 +1,8 @@
+Lecture/ExplainBangBang:
+  Description: '!!variableの説明'
+  Enabled: true
+  VersionAdded: '0.1.7'
+
 Lecture/ExplainNumberedParameters:
   Description: "ナンバーパラメータの説明"
   Enabled: true

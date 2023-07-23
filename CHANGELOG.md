@@ -1,5 +1,9 @@
 # Change log
 
+## 0.1.7 (2023-xx-xx)
+
+- Lecture/ExplainBangBang
+
 ## 0.1.6 (2023-07-18)
 
 - Lecture/ExplainPatternMatchIn
