@@ -1,12 +1,17 @@
 Lecture/ExplainBangBang:
-  Description: '!!variableの説明'
+  Description: "!!variableの説明"
   Enabled: true
-  VersionAdded: '0.1.7'
+  VersionAdded: "0.1.7"
 
 Lecture/ExplainNumberedParameters:
   Description: "ナンバーパラメータの説明"
   Enabled: true
   VersionAdded: "0.1.5"
+
+Lecture/ExplainOrAssign:
+  Description: "||= の説明"
+  Enabled: true
+  VersionAdded: "0.1.7"
 
 Lecture/ExplainPatternMatchCaseIn:
   Description: "パターンマッチ case in の説明"
