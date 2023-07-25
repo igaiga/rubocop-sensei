@@ -4,6 +4,7 @@
 
 - Lecture/ExplainBangBang
 - Lecture/ExplainOrAssign
+- Lecture/ExplainLonelyOperator
 
 ## 0.1.6 (2023-07-18)
 

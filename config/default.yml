@@ -1,5 +1,10 @@
 Lecture/ExplainBangBang:
-  Description: "!!variableの説明"
+  Description: "!!variable の説明"
+  Enabled: true
+  VersionAdded: "0.1.7"
+
+Lecture/ExplainLonelyOperator:
+  Description: "&. の説明"
   Enabled: true
   VersionAdded: "0.1.7"
 
@@ -49,6 +54,6 @@ Lecture/ReplaceElsif:
   VersionAdded: "0.1.0"
 
 Lecture/UnlessElse:
-  Description: "unless else はやめてif に書き換えよう"
+  Description: "unless else はやめて if に書き換えよう"
   Enabled: true
   VersionAdded: "0.1.3"
