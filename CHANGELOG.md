@@ -1,6 +1,6 @@
 # Change log
 
-## 0.1.7 (2023-xx-xx)
+## 0.1.7 (2023-10-25)
 
 - Lecture/ExplainBangBang
 - Lecture/ExplainOrAssign
