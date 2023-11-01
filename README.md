@@ -16,7 +16,14 @@
 
 ## インストール
 
-- Gemfile に以下を追加します。
+- Gemfile に以下を追加します
+
+```ruby
+gem "rubocop"
+gem "rubocop-sensei"
+```
+
+- RailsアプリのGemfileでは次のようにdevelopment環境へ追加します
 
 ```ruby
 group :development do
